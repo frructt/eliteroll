@@ -26,7 +26,7 @@
 	align-items: center;
 }
 
-.sushi, .pizza, .classic, .baked, .hard, ._warm, .set, .snack  {
+.sushi, .pizza, .classic, .baked, ._hard, .warm, .set, .snack  {
 	width: 120px;
 	height: 120px;
 
@@ -38,7 +38,7 @@
 	flex-direction: row;
 }
 
-.sushi a, .pizza a, .classic a, .baked a, .hard a, ._warm a, .set a, .snack a {
+.sushi a, .pizza a, .classic a, .baked a, ._hard a, .warm a, .set a, .snack a {
 	display: block;	
 	height: 70%;
 	padding-top: 30%;
@@ -59,12 +59,12 @@
 }
 
 
-.sushi a:hover, .pizza a:hover, .classic a:hover, .baked a:hover, .hard a:hover, ._warm a:hover, .set a:hover, .snack a:hover {
+.sushi a:hover, .pizza a:hover, .classic a:hover, .baked a:hover, ._hard a:hover, .warm a:hover, .set a:hover, .snack a:hover {
 	/*background-color: rgb(42, 183, 27);*/
 	background-color: rgb(244, 126, 0);
 } 
 
-._warm {
+._hard {
 	background-color: rgb(244, 126, 0);
 }
 
@@ -79,7 +79,7 @@ section {
 	align-items: center;*/
 }
 
-.row-container, .row2-container, .row3-container {
+.row-container, .row2-container, .row3-container, .row4-container, .row5-container, .row6-container, .row7-container, .row8-container, .row9-container, .row10-container, .row11-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
